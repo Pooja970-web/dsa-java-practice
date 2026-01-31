@@ -11,7 +11,7 @@ and prepare for coding interviews.
 
 
 DSA/
-│
+│└── README.md
 ├── Basic_sorting/
 │ ├── BubbleSort.java
 │ ├── SelectionSort.java
@@ -25,8 +25,7 @@ DSA/
 ├── Recursion1/
 │ ├── Factorial.java
 │ ├── DecreasingIncreasing.java
-│
-└── README.md
+
 
 ---
 
