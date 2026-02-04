@@ -13,21 +13,21 @@ and prepare for coding interviews.
 DSA/
 │└── README.md
 ├── Basic_sorting/
-│ ├── BubbleSort.java
-│ ├── SelectionSort.java
-│ ├── MoveAllZerosToEnd.java
-│ └── README.md
+│   ├── BubbleSort.java
+│   ├── SelectionSort.java
+│   ├── MoveAllZerosToEnd.java
+│   ├── CommonSortedArray.java
+│   └── README.md
 │
 ├── LearnArray/
-│ ├── PrintArray.java
-│ ├── PrintNegativeElements.java
+│   ├── PrintArray.java
+│   ├── PrintNegativeElements.java
 │
 ├── Recursion1/
 │ ├── Factorial.java
 │ ├── DecreasingIncreasing.java
+└── README.md
 
-
----
 
 ## 📌 Programs Included
 
@@ -109,8 +109,37 @@ Output:
 **Space Complexity:** O(1)
 
 ---
+---
 
-### 4️⃣ Array Basics
+### 4️⃣ Common Elements in Two Sorted Arrays
+**File:** `CommonSortedArray.java`
+
+**Description:**  
+This program finds the common elements present in two integer arrays
+using sorting and the Two Pointer Technique.
+
+**Approach:**
+- Sort both arrays
+- Use two pointers to traverse simultaneously
+- Add matching elements to the result
+
+**Example:**
+
+Input:  
+a = [1, 2, 3, 4, 5]  
+b = [2, 4, 6, 8]
+
+Output:  
+[2, 4]
+
+**Time Complexity:**  
+O(n log n + m log m)
+
+**Space Complexity:**  
+O(k), where k is the number of common elements
+
+
+### 5️⃣ Array Basics
 **Folder:** `LearnArray/`
 
 **Concepts Covered:**
@@ -120,7 +149,7 @@ Output:
 
 ---
 
-### 5️⃣ Recursion
+###  6️⃣ Recursion
 **Folder:** `Recursion1/`
 
 **Programs Included:**
